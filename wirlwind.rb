@@ -5,5 +5,7 @@ favorite_foods = []
   favorite_foods << input
 end
 
-p favorite_foods
+favorite_foods.each do |food|
+  p "I love #{food}"
+end
 
