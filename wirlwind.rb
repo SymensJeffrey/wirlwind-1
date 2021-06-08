@@ -4,8 +4,8 @@ favorite_foods = []
   input = gets.chomp
   favorite_foods << input
 end
-
+index = 1
 favorite_foods.each do |food|
-  p "I love #{food}"
+  p "#{index}. #{food}"
+  index += 1
 end
-
